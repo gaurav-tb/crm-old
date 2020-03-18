@@ -1,0 +1,185 @@
+﻿
+.input
+{
+margin-bottom: 5px;
+border: 1px #ccc solid;
+padding: 4px;
+font-size: 13px;
+width:200px;
+font-family:"Segoe UI","Segoe UI Web Light","Segoe UI Light","Segoe UI Web Regular","Segoe UI Symbol",Estrangelo Edessa,"Helvetica Neue",Arial;
+outline:none;
+}
+
+.oneBox
+{
+	padding:5px;
+			font-size:12px;
+}
+.word
+{
+	background:#fff;
+	position:relative;
+	width:300px;
+	font-size:14px;
+	color:#333;
+
+	
+}
+
+.talk
+{
+	padding:10px;
+	cursor:pointer;
+
+}
+
+.comment
+{
+	border-top:2px #ccc solid;
+	padding:5px 0px;
+}
+
+
+
+.toolStrip
+{
+		position:absolute;
+		left:-10px;
+		top:10px;
+		background:transparent;
+		width:10px;
+		height:500px;
+}
+
+	
+.required
+{
+
+margin-bottom: 5px;
+border: 1px solid #b82121;
+padding: 4px;
+font-size: 13px;
+width:200px;
+font-family:"Segoe UI","Segoe UI Web Light","Segoe UI Light","Segoe UI Web Regular","Segoe UI Symbol",Estrangelo Edessa,"Helvetica Neue",Arial;
+outline:none;
+}
+
+
+.resultBox
+{
+display:none;
+position: fixed;
+top:0px;
+z-index: 2000000;
+left:40%;
+background:#fff;
+color:#222;
+padding:5px;
+box-shadow:0px 0px 10px #000;
+}
+
+.teamMate
+{
+	background:#eee;
+	color:#000;
+	padding:5px;
+	border-radius:2px;
+	display:inline-block;
+	margin:5px 5px;
+}
+.floatMoodle
+{
+	background:#fff;
+	box-shadow:0px 0px 3px 0px #222;
+	left:0px;
+	bottom:0px;
+	width:300px;
+	max-height:530px;
+	position:fixed;
+	z-index:20000000;
+}
+
+.floatMoodlein
+{
+		height:700px;
+}
+
+
+.whtclose
+{
+background:#fff;
+	box-shadow:0px 0px 3px 0px #222;
+	right:0px;
+	bottom:0px;
+	width:300px;
+	max-height:630px;
+	position:fixed;
+	z-index:20000000;
+}
+.forRed
+{
+
+background:#b82121;
+border:0px;
+	
+	text-align:center;
+	padding:3px 10px;
+	color:#fff;
+font-family: "Segoe UI Web Semibold", "Segoe UI Web Regular", "Segoe UI", "Helvetica Neue", Arial;
+
+	font-size:13px;
+
+	cursor:pointer;
+}
+.forBlue
+{
+
+background:#0072c6;
+border:0px;
+	
+	text-align:center;
+	padding:3px 10px;
+	color:#fff;
+font-family: "Segoe UI Web Semibold", "Segoe UI Web Regular", "Segoe UI", "Helvetica Neue", Arial;
+
+	font-size:13px;
+
+	cursor:pointer;
+}
+.forGreen
+{
+
+background:#7BB700;
+border:0px;
+	
+	text-align:center;
+	padding:3px 10px;
+	color:#fff;
+font-family: "Segoe UI Web Semibold", "Segoe UI Web Regular", "Segoe UI", "Helvetica Neue", Arial;
+
+	font-size:13px;
+
+	cursor:pointer;
+}
+.deactive
+{
+	color:#bf2702;
+	font-size:11px;
+	text-decoration:underline;
+ 	cursor:pointer;
+	
+}
+.active
+{
+	color:#007cba;
+	font-size:11px;
+	text-decoration:underline;
+	cursor:pointer
+}
+.clientcodeinput {
+    border: 1px inset #ccc;
+}
+.clientcodeinput input 
+{
+    border: 0;
+}

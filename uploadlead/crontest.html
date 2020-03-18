@@ -1,0 +1,46 @@
+<!-------------------------------------+
+//  Developed by Roshan Bhattarai   |
+//	http://roshanbh.com.np          |
+//  Fell free to use this script    |
+//----------------------------------+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+                    "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<style type="text/css">
+body { 
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:13px;
+}
+</style>
+  <script src="jquery.js"></script>
+  <script>
+  $(document).ready(function()
+  {
+	//ajaxTime.php is called every second to get time from server
+   var refreshId = setInterval(function() 
+   {
+	 $('#timeval').load('chkNumber.php');
+   },300000);
+   //stop the clock when this button is clicked
+   $("#stop").click(function() 
+   {
+   	clearInterval(refreshId);
+   });
+  });
+   </script>
+ <link rel="stylesheet" href="style.css" type="text/css">
+<title>Example of call php from ajax in every second using Jquery</title>
+</head>
+<body>
+<div align="center"><strong>Example of calling php from ajax in every second</strong></div>
+<br />
+<br />
+<strong><div align="center" id="timeval">--:--:--</div></strong>
+<br />
+<br />
+<div align="center">
+<button id="stop">Stop</button> 
+</div>
+</body>
+</html>

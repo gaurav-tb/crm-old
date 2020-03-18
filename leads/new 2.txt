@@ -1,0 +1,1548 @@
+html {
+    font-size: 100%;
+    -ms-text-size-adjust: 100%; 
+    -webkit-text-size-adjust: 100%; 
+}
+
+.inputRefer
+{
+	border:1px #ccc solid;
+	padding: 2px;
+
+}
+.140hght
+{
+	height: 140px !important;
+}
+
+.pageHead-downloads
+{
+	background:transparent url('../images/downloads.jpg') no-repeat scroll center bottom;background-size:cover;height:500px;
+	padding-top:200px;
+}
+
+.pageHead-downloads h1
+{
+	color: #25be9b !important;
+	font-weight: bold;
+	font-size: 40px !important;
+	text-shadow: 0px 0px 2px 0px #222;
+	border-bottom: 2px #25be9b solid;
+	padding-bottom: 5px;
+}
+
+.pageHead-offers
+{
+	background:transparent url('../images/offer.jpg') no-repeat scroll center top;background-size:cover;height:500px;
+	padding-top: 300px;
+}
+
+
+.pageHead-offers .topHeading 
+{
+	text-align: left !important;
+}
+
+
+.pagehead-branch
+{
+	background:transparent url('../images/brancher.jpg') no-repeat scroll center bottom;background-size:cover;height:400px
+}
+
+.pagehead-career
+{
+	background:transparent url('../images/careers.jpg') no-repeat scroll center top;background-size:cover;height:500px;
+	padding-top: 400px;
+}
+
+.pagehead-about
+{
+	background:transparent url('../images/about.jpg') no-repeat scroll center center;background-size:cover;height:500px;
+	padding-top: 300px;
+}
+
+.pagehead-margin
+{
+	background:transparent url('../images/margin-funding.jpg') no-repeat scroll center center;background-size:cover;height:500px;
+	padding-top: 300px;
+}
+
+
+
+.pagehead-refer
+{
+	background:transparent url('../images/refer.jpg') no-repeat scroll center bottom;background-size:cover;height:500px;
+	padding-top: 300px;
+}
+
+
+.btn-desk
+{
+font-size:16px;
+}
+
+.custSpanTab
+{
+	border: 0px !important;
+}
+
+.custSpanTab li a 
+{
+	border: 0px !important;
+	border-radius:0px !important; 
+	border-top:1px #1aa872 solid !important;
+	border-bottom:1px #1aa872 solid !important;
+	background: transparent !important;;
+	color: #fff;
+	margin: 0px 10px;
+}
+
+
+
+.custSpanTab li.active a
+{
+	border:1px #1aa872 solid !important;
+	background:rgba(26,168,144,0.8) !important;
+	color: #fff !important;
+	border-radius:0px !important;
+
+}
+
+.wbtnactive
+{
+	
+	border: 2px #fff solid !important;
+font-family: 'Exo 2',sans-serif !important;
+font-size: 15px !important;
+border-radius: 0px !important;
+color: #1da6ad !important;
+background: #fff !important;;
+min-width: 70px;
+
+}
+
+.wbtninactive
+{
+	
+border: 2px #fff solid !important;
+font-family: 'Exo 2',sans-serif !important;
+font-size: 15px !important;
+border-radius: 0px !important;
+color: #fff !important;
+background: transparent !important;;
+min-width: 70px;
+}
+
+.noborBot
+{
+	border-bottom: 2px #fff solid;
+	
+}
+
+.borBot
+{
+	
+	border-bottom: 2px #222 solid;
+}
+
+.headerBlack
+{
+	background:#000 ;
+	position: fixed;
+	top:0px;
+	height:40px;
+	width: 100%;
+	z-index: 2000;
+    color: #fff;
+    margin: 0px;
+}
+
+.marginRighter
+{
+	text-align: left;
+}
+
+
+body
+{
+margin: 0px;
+padding: 0px;
+font-family: 'Exo 2', sans-serif;
+font-size: 13px;
+color: #425462;
+background: #fff;
+overflow-x:hidden; 
+}
+
+#fp-nav ul li a span{
+    background: #fff !important;
+}
+
+.footerLinks a
+{
+color: #fff !important;
+font-size: 12px;
+}
+
+.othercharge
+{
+	
+	
+}
+
+.othercharge li{
+	padding: 7px 0px;
+}
+
+.custServiceTabs
+{
+	border: 0px !important;
+}
+
+.custServiceTabs li a 
+{
+	border: 0px !important;
+	border-radius:0px !important; 
+		border-top:2px #fff solid !important;
+	border-bottom:2px #fff solid !important;
+	background: transparent !important;;
+	color: #bbb;
+}
+
+
+
+.custServiceTabs li.active a
+{
+	border-top:2px #425462 solid !important;
+	border-bottom:2px #425462 solid !important;
+	color: #425462;
+}
+
+
+
+
+.custServiceTabsGrey
+{
+	border: 0px !important;
+}
+
+.custServiceTabsGrey li a 
+{
+	border: 0px !important;
+	border-radius:0px !important; 
+		border-top:2px #FCFCFC solid !important;
+	border-bottom:2px #FCFCFC solid !important;
+	background: transparent !important;;
+	color: #8d9eaa;
+}
+
+
+
+.custServiceTabsGrey li.active a
+{
+	border-top:2px #425462 solid !important;
+	border-bottom:2px #425462 solid !important;
+	color: #425462;
+}
+
+
+.priceHead
+{
+	width: 400px;
+}
+
+.priceHead td
+{
+	padding: 0px 20px;
+	color: #425462;
+}
+
+
+.priceHead td div
+{
+	padding: 20px 20px;
+	text-align: center;
+	color:#bbb; 
+
+}
+
+.priceHead td div.active
+{
+	border-top: 2px #425462 solid;
+	border-bottom: 2px #425462 solid;
+	color: #425462
+
+}
+
+
+.pricingPack td
+{
+	padding: 10px 10px !important;
+	font-size:14px;
+}
+
+.midServiceBlock
+{
+	background: #fff;
+	border: 1px #ddd solid;
+	border-radius: 3px;
+	color:#777;
+	cursor: pointer;
+	text-align: left;
+}
+
+
+.subMenu
+{
+    background: #fff;
+    padding: 5px;
+    position: absolute;
+    top: 45px;
+    left: -17px;
+    height: 80px;
+    width: 108px;
+    border: 2px #eee solid;
+    border-radius: 3px;
+    display: none;
+
+
+/*    -webkit-box-shadow: 0px 0px 4px 1px #ddd;
+    -moz-box-shadow: 0px 0px 4px 1px #ddd;
+    box-shadow: 0px 0px 4px 1px #ddd;   
+*/
+}
+
+.subMenu a{
+	font-size: 11px;
+	border-bottom: 1px #eee solid;
+	display: block;
+	padding: 7px !important;
+	color: #25BE9B !important;
+}
+
+
+.subMenu a:hover{
+	text-decoration: underline;;
+}
+
+.signInButtonDiv
+{
+position:relative;display:inline-block	
+}
+
+.signInButtonDiv:hover .subMenu
+{
+	display: block;
+}
+
+.deskHide
+{
+	display: none;
+}
+
+
+
+.tableAccountOpen
+{
+	width: 100%;
+}
+
+
+.tableAccountOpen td
+{
+
+padding: 10px;
+}
+
+
+.mobileHide
+{
+	display: block;
+}
+
+.sgood
+{
+	background:#25C08D;
+}
+#section0
+{
+	width: 100%;
+}
+
+.calDesk
+{
+	display: block;
+}
+
+.calMobile
+{
+	display: none;
+}
+
+
+
+#section1, #section2, #section3, #section4, #section0
+{
+	overflow:hidden !important; 
+}
+
+/* Style for our header texts
+	* --------------------------------------- */
+
+	.intro p{
+		color: #fff;
+	}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
+
+	/* Overwriting styles for control arrows for slides
+	* --------------------------------------- */
+	.controlArrow.prev {
+		left: 50px;
+	}
+	.controlArrow.next{
+		right: 50px;
+	}
+
+
+	/* Bottom menu
+	* --------------------------------------- */
+	#infoMenu li a {
+		color: #fff;
+	}
+
+
+
+.header
+{
+	background:#fff ;
+	position: fixed;
+	top:0px;
+	height:100px;
+	width: 100%;
+	z-index: 2000;
+	-webkit-box-shadow: 0px 0px 8px 2px #ddd;
+       -moz-box-shadow: 0px 0px 8px 2px #ddd;
+            box-shadow: 0px 0px 8px 2px #ddd;
+            
+            margin: 0px;
+
+            color: #425462;
+
+
+}
+
+.header div.topA
+{
+	text-align:right;border-bottom:1px #eee solid;padding:5px 20px;
+	background: #FAFBFC;
+}
+
+.header div.topA a
+{
+	display: inline-block;
+	padding: 3px 20px;
+	
+	color: #777;
+	font-size: 11px;
+	margin: 0px !important;
+	width: 100%;
+}
+
+
+
+.header div.topA a.active
+{
+	display: inline-block;
+	padding: 3px 20px;
+	border: 1px #fff solid;
+	color: #25be9b;
+	font-size: 11px;
+	
+	background:#fff;
+	border-radius: 50px;
+}
+
+
+
+
+.header #sideMenuTop
+{
+	display:inline-block;
+}
+
+#sideMenuBut
+{
+	position: absolute;
+	top:25px;
+	right: 20px;
+	font-size: 14px;
+	color: #fff;
+
+}
+
+
+.header #sideMenuBut
+{
+display: none;
+}
+
+.shadow
+{
+	-webkit-box-shadow: 0px 0px 8px 2px #ddd;
+       -moz-box-shadow: 0px 0px 8px 2px #ddd;
+            box-shadow: 0px 0px 8px 2px #ddd;
+
+}
+
+
+.headerCalc
+{
+	background:rgba(255,255,255,0.2) ;
+
+	position: fixed;
+	top:0px;
+	height:100px;
+	width: 100%;
+	z-index: 2000;
+            
+            margin: 0px;
+            color: #fff;
+}
+
+
+
+
+
+.headerCalc div.topA a.active
+{
+	display: inline-block;
+	padding: 3px 20px;
+	
+	color: #25be9b;
+	font-size: 11px;
+	
+	background:#fff;
+	border-radius: 50px;
+}
+
+
+.headerCalc #sideMenuBut
+{
+display: none;
+}
+
+
+
+
+.headerCalc #sideMenuTop
+{
+	display:inline-block;
+}
+
+
+
+.headerCalc div.topA
+{
+	text-align:right;border-bottom:1px #1aa872 solid;padding:5px 20px;
+}
+
+.headerCalc div.topA a
+{
+	display: inline-block;
+	padding: 3px 20px;
+	
+	color: #fff;
+	font-size: 11px;
+	margin: 0px !important;
+}
+
+.headerCalc div.topA a.offer
+{
+	display: inline-block;
+	padding: 3px 20px;
+	color: #fff;
+	font-size: 11px;
+	border:0px;background:#E26A6A;
+	border-radius: 3px;
+}
+
+
+
+
+.headerCalcHide
+{
+	background:transparent;
+	position: fixed;
+	top:0px;
+	height:100px;
+	width: 100%;
+	z-index: 2000;
+            
+            margin: 0px;
+            color: #fff;
+
+
+}
+
+.centCirle
+{
+    border: 2px #fff solid;
+    height: 140px;
+    width: 140px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 35px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.centCirle:hover
+{
+    border: 2px #fff solid;
+    height: 140px;
+    width: 140px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 35px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 40px;
+    cursor: pointer;
+	color:#25BE9B;
+	background:#fff;
+}
+
+
+
+
+.headerCalcHide #sideMenuTop
+{
+	display:none;
+}
+
+
+
+.headerCalcHide #sideMenuBut
+{
+display: inline-block;
+}
+
+.topInput
+{
+		-webkit-box-shadow: 0px 0px 2px 1px #ccc;
+       -moz-box-shadow: 0px 0px 2px 1px #ccc;
+            box-shadow: 0px 0px 2px 1px #ccc;
+            
+}
+
+.text-success
+{
+	color:#25BE9B;
+}
+
+.btn-success
+{
+	background:#25BE9B;
+	border:1px #25BE9B solid;
+}
+
+
+.btn-success:hover
+{
+	background:#25BE9B;
+	border:1px #25BE9B solid;
+}
+
+
+.btn
+{
+	outline: none !important;
+}
+
+.header .topMenu td
+{
+
+color: #425462;
+font-size: 15px;
+}
+
+
+.header .topMenu td.active
+{
+	border-bottom: 2px #25BE9B solid;
+}
+
+.header .topMenu td.null
+{
+	border-bottom: 2px #fff solid;
+}
+
+.header .topMenu td a
+{
+	color: #425462;
+	text-decoration: none;;
+	display: block;
+padding: 10px 20px 10px 20px;
+}
+
+
+
+.headerCalc .topMenu td.active
+{
+	border-bottom: 2px #fff solid;
+}
+
+.headerCalc .topMenu td.null
+{
+	border-bottom: 2px transparent solid;
+}
+
+
+
+.headerCalc .topMenu td
+{
+
+color: #fff;
+font-size: 15px;
+}
+
+.headerCalc .topMenu td a
+{
+	color: #fff;
+	text-decoration: none;;
+	display: block;
+	padding: 15px 20px 10px 20px;
+}
+
+
+.btnWBorder
+{
+border: 2px #fff solid !important;
+font-family: 'Exo 2',sans-serif !important;
+font-size: 12px !important;
+border-radius: 50px !important;
+color: #fff !important;
+background: transparent !important;;
+border-top-left-radius:0px !important;
+}
+
+.btnWBorderFull
+{
+border: 2px #fff solid !important;
+font-family: 'Exo 2',sans-serif !important;
+font-size: 15px !important;
+border-radius: 3px !important;
+color: #fff !important;
+background: transparent !important;;
+min-width: 70px;
+}
+
+
+.btnWBorderSquare
+{
+border: 1px #20b277 solid !important;
+font-family: 'Exo 2',sans-serif !important;
+font-size: 15px !important;
+color: #fff !important;
+background: transparent !important;;
+width: 100px;
+border-bottom: 0px !important;
+
+}
+
+
+
+
+.btnGBorderFullFill
+{
+border: 2px #fff solid !important;
+font-family: 'Exo 2',sans-serif !important;
+font-size: 15px !important;
+border-radius: 2px !important;
+color: #1da6ad !important;
+background: #fff !important;;
+min-width: 70px;
+}
+
+.btnGBorder
+{
+border: 2px #25BE9B solid !important;
+font-family: 'Exo 2',sans-serif !important;
+font-size: 12px !important;
+border-radius: 50px !important;
+color: #25BE9B !important;
+background: transparent !important;;
+border-top-left-radius:0px !important;
+}
+
+.btnG
+{
+	border: 1px #25BE9B solid !important;
+font-family: 'Exo 2',sans-serif !important;
+font-size: 12px !important;
+border-radius: 50px !important;
+color: #fff !important;
+background: #25BE9B !important;;
+}
+
+
+
+.btnW
+{
+	border: 2px #fff solid !important;
+font-family: 'Exo 2',sans-serif !important;
+font-size: 12px !important;
+border-radius: 50px !important;
+color: #fff !important;
+background:transparent;
+}
+.input
+{
+	outline: none;
+	padding: 5px 10px;
+}
+
+
+hr
+{
+	width: 50%;
+	border-top: 1px #999 solid;
+}
+
+.fp-tableCell
+{
+	height: auto !important;
+}
+
+
+.fp-controlArrow.fp-prev {
+    left: 15px;
+    width: 0;
+    border-width: 18.5px 20px 18.5px 0 !important;
+    border-color: transparent #ccc transparent transparent !important;
+}
+
+.fp-controlArrow.fp-next {
+    right: 45px !important;
+   border-width: 18.5px 0 18.5px 20px !important;
+    border-color: transparent transparent transparent #ccc !important;
+
+    }
+
+
+
+.calculator
+{
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#26c285+0,24b7c1+100 */
+background: #26c285; /* Old browsers */
+background: -moz-linear-gradient(left,  #26c285 0%, #24b7c1 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #26c285 0%,#24b7c1 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #26c285 0%,#24b7c1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26c285', endColorstr='#24b7c1',GradientType=1 ); /* IE6-9 */
+
+
+}
+
+.input
+{
+	background: transparent;
+	border: 0px;
+font-family: 'Exo 2', sans-serif;
+
+}
+
+
+.tableCalcSide
+{
+	width: 100%;
+}
+
+
+.tableCalcSide td
+{
+
+padding: 15px 20px 15px 20px;
+background: transparent;
+border-bottom: 1px #1bad77 solid;
+color: #fff;
+font-size: 14px;
+text-align: left;
+opacity: 0.5;
+cursor: pointer;
+text-align: center;;
+}
+
+
+.tableCalcSide td:hover
+{
+opacity: 1;
+}
+
+
+
+
+.inputFormAccount
+{
+	border: 0px;
+	
+	padding: 10px;
+	width: 100%;
+	background: #fff;
+	color: #4e687c;
+	outline: none;
+}
+
+.tableCalcSide td.active
+{
+
+opacity:1;
+border-bottom: 1px #fff solid;
+}
+
+.calTopMenu td
+{
+padding: 10px 15px;
+cursor: pointer;
+border: 0px #1bad77 solid;
+background: transparent;;
+text-align: center;;
+}
+
+.calTopMenu td:hover
+{
+background: #fff;
+color: #1bad77;
+border-radius: 100px;
+}
+
+.calTopMenu td.active
+{
+background: #fff;
+color: #1bad77;
+border-radius: 100px;
+
+}
+
+.calcFormTab td{
+	padding: 10px 10px;
+}
+
+
+
+.tableCalc td
+{
+
+padding: 12px 20px 5px 20px;
+background: transparent;
+border-bottom: 1px #22adad solid;
+color: #fff;
+}
+
+.tableCalc tr td:nth-child(1)
+{
+	text-align: left;
+	font-size: 11px;
+	font-weight: bold;
+		width: 60%;
+}
+
+.tableCalc tr td:nth-child(2)
+{
+	text-align: right;
+	font-size: 20px;
+	font-weight: bold;
+		width: 40%;
+}
+
+.calcTop
+{
+	position: absolute;
+	right:-1000px;
+	top:60px;
+}
+
+.openAccountFloat
+{
+background:#425462;display:inline-block;position:fixed !important;bottom:20px;right:20px;z-index:200;border-radius:50px;color:#fff;
+}
+
+
+.openAccountFloatLeft
+{
+background:transparent;display:inline-block;position:fixed !important;top:20px;right:20px;z-index:200;border-radius:50px;color:#425462;
+}
+
+.openAccountFloatLeft i
+{
+	display: none !important;
+}
+
+
+.openAccountFloatLeftMid
+{
+	background:transparent;display:inline-block;position:fixed !important;bottom:15px;right:20px;z-index:200;border-radius:50px;color:#425462;
+	
+}
+
+
+.openAccountFloatLeftMid i
+{
+	display: none !important;
+}
+
+.brokText
+{
+	position: absolute;
+	top:25px;
+	left: 42%;
+	color: #fff;
+	text-align: left;;
+	font-size: 10px;
+	display: none;
+}
+
+
+.brokTextMid
+{
+	position: absolute;
+/*
+	bottom:25px;
+	left: 26%;
+	*/
+	top:25px;
+	left: 42%;
+
+	color: #fff;
+	text-align: left;;
+	font-size: 20px;
+	display: none;
+}
+
+.brokTextVis
+{
+	position: absolute;
+	top:25px;
+	left:42%;
+	text-align: left;;
+	font-size: 30px;
+	color: #fff;
+
+}
+
+.topBell
+{
+	position:fixed;top:20px;left:75px;
+	font-size:9px !important;
+	color: #26C286;
+}
+
+.topBellSecond
+{
+	position:fixed;bottom:60px;left:85px;
+	font-size:9px !important;
+}
+
+
+.topBellThird
+{
+	position:fixed;bottom:250px;left:85px;
+	font-size:9px !important;
+}
+
+.downloadTab td .fa-chevron-right
+{
+	font-size: 12px !important;
+}
+
+.downloadTab td
+{
+padding: 10px 10px 10px 0px;
+border-bottom: 1px #425462 dotted;
+cursor: pointer;
+text-align: left;
+
+}
+
+
+.downloadTab td i
+{
+font-size: 20px;
+}
+
+
+.downloads a
+{
+display: block;
+padding: 20px 10px;
+color: #555;
+border-bottom:1px #eee solid;
+text-align: left;
+}
+
+
+
+.downloads a:hover
+{
+color: #25be9b;
+}
+
+.fa-external-link-square
+{
+	font-size: 16px !important;
+	color: #425462 !important;
+}
+
+
+.fundSign
+{
+	border-radius:20px;padding:5px 15px;
+	display: inline-block;;
+}
+
+
+.custLogo
+{
+	letter-spacing: 1px;width:100px;color:#26c187;
+	font-weight: bold;
+	cursor: pointer;
+}
+.custLogo .logobells
+{
+	float:right;letter-spacing:0px;margin-right:3px;
+	color: #6D7087;
+}
+
+.custLogo i
+{
+	color: #6D7087;
+}
+
+
+.custLogoWhite
+{
+	letter-spacing: 1px;width:100px;color:#fff;
+	font-weight: bold;
+	cursor: pointer;
+}
+.custLogoWhite .logobells
+{
+	float:right;letter-spacing:0px;margin-right:3px;
+	color:#fff
+}
+
+.custLogoWhite i
+{
+	color: #fff !important;
+}
+
+.spanTable td
+{
+padding: 10px;
+text-align: left;
+color: #fff;
+font-size: 14px;
+}
+
+.custLogoBig
+{
+
+	letter-spacing: 1px;width:142px;color:#26c187;
+	font-weight: bold;
+	font-size: 30px;
+}
+.custLogoBig .logobells
+{
+	float:right;letter-spacing:0px;margin-right:3px;
+	color:#6D7087;
+	font-size: 30px;
+}
+
+
+
+.footSocial a i{
+	color: #fff !important;
+	text-decoration: none;;
+}
+
+ 
+
+
+/* rgba(18, 33, 43, 0.86)*/
+.aboutBack
+{
+	background:transparent url('../images/about-light.png') no-repeat scroll center top !important;
+	background-size: cover  !important;
+	overflow-y:hidden;
+	position: relative;;
+}
+
+ 
+.aboutTopper
+{
+	background: #fff;
+	padding:20px;
+	width:90%;
+	height:340px;
+	position: absolute;;
+	top:-200px;
+	left:5%;
+	border: 1px #eee solid;
+	border-top: 5px #25be9b solid;
+	margin: 10px;
+	z-index:2000
+}
+
+.built
+{
+	position:absolute;top:90px;width:100%;height:60px;z-index:200
+}
+
+.builtMid
+{
+	position:absolute;bottom:0px;left:0px;width:100%;height:200px;background:#FAFBFC;	border-top: 5px #25be9b solid;
+}
+
+
+.footContact
+{
+	text-align:left;width:60%;padding:10px;padding-left:30px;
+}
+
+.footerSide
+{
+	width:90%;text-align:justify
+}
+
+.footerUpside
+{
+	text-align: left;;
+	padding: 10px;
+	background: #425462;
+	color: #fff;
+}
+
+.footSpacer{
+	height: 110px
+}
+
+.mobilesec0
+{
+	display: none;
+}
+
+.mobsec1
+{
+	display: none;
+}
+
+.mobileHead
+{
+	display: block;
+	margin-top: 110px;
+}
+
+.headerMobile
+{
+	display: none;
+}
+
+.offerSide
+{
+	position:fixed;right:20px;bottom:59px;z-index:200000;background:#425462;border-radius:20px;
+	display: block;
+}
+
+.sideMenuLayer
+{
+	width: 100%;
+	height: 2000px;
+	background: rgba(66,84,98,0.7);
+	position: fixed;
+	top:0;
+	left: 0;
+	display: none;
+	z-index: 3000;
+}
+
+
+.sideMenu
+{
+	width: 80%;
+	overflow-y: scroll !important;
+	position: fixed;
+	top:0;
+	left:-100%;
+	background: #425462;
+	z-index: 4000;
+}
+
+.tableMapContainer
+{
+	position:absolute;top:10px;left:10px;z-index:2000;border-radius:2px;width:98%;
+}
+
+
+.tableMap td span{
+	font-size: 20px;
+	color: #777;
+}
+.tableMap
+{
+    box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px;
+    border-radius: 2px;
+    background-color: white;
+            line-height: 180%;
+            font-size: 14px;
+            padding: 20px;
+            color:#000;
+            width:100%;height:130px
+            
+}
+
+.tableMap i
+{
+	color: #619DE5;
+	font-size: 16px;
+}
+
+
+.topHeading
+{
+	padding:20px;color:#fff;text-align:right;width:90%
+}
+.topHeading h1
+{
+	font-size: 35px;
+}
+
+.mapContainer
+{
+	position:absolute;top:0;left:0px;width:100%;height:400px;
+}
+
+.mapper
+{
+width:90%;
+}
+
+
+.framer
+{
+	height:600px;
+}
+
+
+.abidingh4
+{
+	border-bottom:1px #eee solid;padding-bottom:20px;display:inline-block;width:60%;
+	font-size: 20px;
+}
+
+.risky
+{
+	font-size: 20px;
+}
+
+.botNse a
+{
+display: inline-block;
+text-transform: uppercase;
+color: #fff;
+text-decoration: none;;
+padding: 0px 10px;
+border-right:1px #c3d2de solid;
+font-size: 12px;
+}
+
+.pfont
+{
+	font-size:35px;
+	text-align:left;
+}
+
+.ptop
+{
+	padding:10px;font-size:20px;
+}
+
+.pfont1
+{
+	font-size:25px;
+	text-align:left;
+}
+.prupee
+{
+	font-size:80px;font-weight:bold;color:#fff;
+}
+
+
+.prupee i
+{
+	font-size:70px;
+}
+
+.prow
+{
+	width:100%;
+	border-top:0px #1bad77 solid;
+}
+
+.prow1
+{
+	width:100%;
+		border-bottom:1px #1bad77 solid;
+}
+
+
+.divLeft
+{
+text-align:right;
+border-right:1px #eee solid;
+border-bottom:1px #eee solid;
+height:auto !important;
+min-height:40px !important;
+padding-top:10px;
+background:#F7F7F9;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    color: #555;
+}
+
+
+
+.divRight
+{
+text-align:left;
+border-right:1px #eee solid;
+border-bottom:1px #eee solid;
+height:40px !important;
+padding-top:10px;
+font-size:14px;
+}
+
+.logTab td
+{
+padding: 10px;
+color: #425462;
+font-size: 12px;
+font-weight: bold;
+border-bottom: 2px #eee solid;
+cursor: pointer;
+width: 50%;
+}
+
+
+.logTab td.active
+{
+	border-bottom: 2px #25BE9B solid;
+}
+
+
+
+.press-back {
+    background: linear-gradient(#FFFFFF, #F4F4F4) repeat scroll 0 0 transparent;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    box-shadow: 0 0 1px #FFFFFF inset, 0 1px 1px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    padding:10px 20px;
+    cursor: pointer;
+}
+
+
+.circleBox
+{
+	    background: transparent;
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+    border: 5px #fff solid;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 30px;
+    color: #fff;
+    box-shadow: 0px 0px 2px 0px #222;
+}
+
+.dropdown
+{
+	display: inline-block;;
+}
+
+
+.headerCalc .dropdown-toggle
+{
+	color:#fff;
+}
+.dropdown-toggle
+{
+	background:transparent !important;color:#777;border:0px !important;outline:none;font-size:11px;
+	    width: 120px !important;
+    text-align: left !important;
+	font-weight: bold;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+color:#777 !important;
+  background-color: #286090;
+  border-color: #122b40;
+}
+
+
+
+.dropdown-toggle:hover
+{
+color:#777;
+}
+
+.dropdown-menu li a
+{
+font-size: 11px;
+color:#777 !important;
+
+}
+
+.dropdown-menu
+{
+	border-top: 0px !important;
+    position: absolute;
+    top: 111%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px #eee solid;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+}
+
+
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+    color: #777 !important;
+    background-color: #fff !important;
+    border-color: #fff !important;
+}
+.btn.active, .btn:active {
+    background-image: none;
+    outline: 0;
+    box-shadow: none !important;
+}
